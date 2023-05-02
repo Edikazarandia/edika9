@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #392657;    
+}
+.bg_header{
+    padding: 34px 0px;
+
+}
+p{
+    font-family: 'Pretendard Variable';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 38px;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+h1{
+    font-family: 'Pretendard Variable';
+font-style: normal;
+font-weight: 900;
+font-size: 96px;
+line-height: 115px;
+letter-spacing: 0.5em;
+background: linear-gradient(186.21deg, #A178B9 -23.45%, #CC8BF2 169.11%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+h2{
+    font-family: 'Pretendard Variable';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 115px;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+
+
+#banner{
+    margin-top: 166px;
+}
+ABOUT{
+    margin-top: 166px;
+}
+
+.mt-20px{
+    margin-top: 20px;
+}
+.justify-between{
+    justify-content: space-between;
+}
+.align-center {
+ align-items:center ;
+}
+.dir-column{
+    flex-direction: column;
+}
+.nav_items{
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    font-family: 'Pretendard Variable';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 38px;
+letter-spacing: 0.1em;
+color: #FFFFFF;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+}
+.Portfolio{
+    display: flex;
+    justify-content: center;
+    padding: 5px 0px;
+    background-color: blue;
+}
+.baner1{
+    position: absolute;
+width: 700px;
+height: 600px;
+right: -0px;
+top: 108px;
+background: url(Cover.png);
+}
+.g-15{
+    gap: 15px;
+}
+.btn_primary{
+    background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%);
+    border: 1px solid #000000;
+    border-radius: 36px;
+    width: 115px;
+height: 20px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height, or 133% */
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+padding: 16px 33px;
+
+}
+.btn_secondary{
+    background: linear-gradient(98.88deg, #8C01FA -2.99%, #000000 102.28%);
+    border: 1px solid #000000;
+    border-radius: 36px;
+    width: 115px;
+height: 20px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 20px;
+/* identical to box height, or 133% */
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+padding: 16px 33px;
+}
+.col-6{
+    width: 50%;
+}
+.gradient_bg{
+    background: linear-gradient(261.81deg, #19FB9B -8.01%, #8C01FA 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.col-4{
+    width: 33%;
+}
+.glass_bq{
+    background: rgba(0, 0, 0, 0.28);
+border-radius: 24px;
+padding: 32px;
+}
+.br_blue{
+    border-left: 2px solid blue;
+    padding-left: 15px;
+}
+.br_yellow{
+    border-left: 2px solid rgb(238, 255, 0);
+    padding-left: 15px;
+}
